@@ -273,6 +273,14 @@ a {
   outline: none;
 }
 
+.header-nav--active {
+  flex-direction: column;
+}
+
+.header-btn__login-burger {
+  width: 255px;
+}
+
 .header-nav__items {
   min-width: 754px;
   justify-content: space-between;
