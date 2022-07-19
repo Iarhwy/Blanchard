@@ -2311,6 +2311,14 @@ a.ui-button:active,
   .header-btn__login-burger:active::before {
     opacity: 1;
   }
+  
+  .header-nav--active {
+  flex-direction: column;
+}
+
+.header-btn__login-burger {
+  width: 255px;
+}
 
   .burger--close {
     display: inline-block;
@@ -2841,6 +2849,14 @@ a.ui-button:active,
   .header-btn__login-burger:active::before {
     opacity: 1;
   }
+  
+  .header-nav--active {
+  flex-direction: column;
+}
+
+.header-btn__login-burger {
+  width: 255px;
+}
 
   .burger--close {
     display: inline-block;
@@ -3467,6 +3483,14 @@ a.ui-button:active,
   .header-btn__login-burger:active::before {
     opacity: 1;
   }
+  
+  .header-nav--active {
+  flex-direction: column;
+}
+
+.header-btn__login-burger {
+  width: 255px;
+}
 
   .burger--close {
     width: 15px;
