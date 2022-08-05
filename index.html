@@ -115,7 +115,7 @@
          </div>
       </div>
    
-      <div class="header-opacity">
+      <div class="header-opacity sub-header">
          <div class="container sub-header__container flex">
             <ul class="sub-header__list list-reset flex">
                <li class="sub-header__item">
@@ -396,9 +396,9 @@
                      Фильтр:
                   </span>
                   <select name="select" aria-label="Кнопка выбора фильтра картин">
-                     <option value="" aria-label="Кнопка выбора фильтра Живопись">Живопись</option>
-                     <option aria-label="Кнопка выбора фильтра Рисунок">Рисунок</option>
-                     <option aria-label="Кнопка выбора фильтра Культура">Культура</option>
+                     <option value="">Живопись</option>
+                     <option>Рисунок</option>
+                     <option>Культура</option>
                   </select>
                </div>
                <div class="gallery-checkbox flex">
@@ -421,14 +421,14 @@
             </div>
             <div class="gallery-right">
                <div class="gallery-right__btn">
-                  <div class="swiper-button-prev swiper-button-prev1 gl_swiper-btn__prev" aria-label="Кнопка пролистывания картин"></div>
-                  <div class="swiper-pagination gl_swiper-pagination"></div>
-                  <div class="swiper-button-next swiper-button-next1 gl_swiper-btn__next" aria-label="Кнопка пролистывания картин"></div>
+                  <div class="swiper-button-prev swiper-button-prev1"></div>
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-next swiper-button-next1"></div>
                </div>
-               <div class="swiper-container gl_swiper-container">
-                  <div class="swiper-wrapper gl_swiper-wrapper">
+               <div class="swiper-container gallery-right__swiper-container">
+                  <div class="swiper-wrapper gallery-right__swiper-wrapper">
                      <div class="swiper-slide gallery-item swiper-slide--1">
-                        <a href="#" class="gl-swiper__pics" aria-label="Картина номер 1">
+                        <a href="#" class="gallery-right__swiper-pics" aria-label="Картина номер 1">
                            <picture>
                               <source srcset="img/gl-swiper320__pic1.jpg" media="(max-width: 580px)">
                               <source srcset="img/gl-swiper768__pic1.jpg" media="(max-width: 960px)">
@@ -438,7 +438,7 @@
                         </a>
                      </div>
                      <div class="swiper-slide gallery-item swiper-slide--2">
-                        <a href="#" class="gl-swiper__pics" aria-label="Картина номер 2">
+                        <a href="#" class="gallery-right__swiper-pics" aria-label="Картина номер 2">
                            <picture>
                               <source srcset="img/gl-swiper320__pic2.jpg" media="(max-width: 580px)">
                               <source srcset="img/gl-swiper768__pic2.jpg" media="(max-width: 960px)">
@@ -448,7 +448,7 @@
                         </a>
                      </div>
                      <div class="swiper-slide gallery-item swiper-slide--3">
-                        <a href="#" class="gl-swiper__pics" aria-label="Картина номер 3">
+                        <a href="#" class="gallery-right__swiper-pics" aria-label="Картина номер 3">
                            <picture>
                               <source srcset="img/gl-swiper320__pic3.jpg" media="(max-width: 580px)">
                               <source srcset="img/gl-swiper768__pic3.jpg" media="(max-width: 960px)">
@@ -458,7 +458,7 @@
                         </a>
                      </div>
                      <div class="swiper-slide gallery-item swiper-slide--4">
-                        <a href="#" class="gl-swiper__pics" aria-label="Картина номер 4">
+                        <a href="#" class="gallery-right__swiper-pics" aria-label="Картина номер 4">
                            <picture>
                               <source srcset="img/gl-swiper320__pic4.jpg" media="(max-width: 580px)">
                               <source srcset="img/gl-swiper768__pic4.jpg" media="(max-width: 960px)">
@@ -468,7 +468,7 @@
                         </a>
                      </div>
                      <div class="swiper-slide gallery-item swiper-slide--5">
-                        <a href="#" class="gl-swiper__pics" aria-label="Картина номер 5">
+                        <a href="#" class="gallery-right__swiper-pics" aria-label="Картина номер 5">
                            <picture>
                               <source srcset="img/gl-swiper320__pic5.jpg" media="(max-width: 580px)">
                               <source srcset="img/gl-swiper768__pic5.jpg" media="(max-width: 960px)">
@@ -478,7 +478,7 @@
                         </a>
                      </div>
                      <div class="swiper-slide gallery-item swiper-slide--6">
-                        <a href="#" class="gl-swiper__pics" aria-label="Картина номер 6">
+                        <a href="#" class="gallery-right__swiper-pics" aria-label="Картина номер 6">
                            <picture>
                               <source srcset="img/gl-swiper320__pic6.jpg" media="(max-width: 580px)">
                               <source srcset="img/gl-swiper768__pic6.jpg" media="(max-width: 960px)">
@@ -510,7 +510,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -529,7 +529,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -548,7 +548,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -567,7 +567,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -586,7 +586,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -605,7 +605,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -624,7 +624,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -643,7 +643,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -662,7 +662,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -681,7 +681,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -700,7 +700,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -719,7 +719,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -738,7 +738,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -757,7 +757,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -776,7 +776,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -795,7 +795,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -814,7 +814,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -833,7 +833,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -852,7 +852,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -871,7 +871,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -890,7 +890,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -909,7 +909,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -928,7 +928,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -947,7 +947,7 @@
                               <source srcset="img/catalog-tabs320.jpg" media="(max-width: 580px)">
                               <source srcset="img/catalog-tabs768.jpg" media="(max-width: 960px)">
                               <source srcset="img/catalog-tabs1024.jpg" media="(max-width: 1360px)">
-                              <img src="img/catalog-tabs1920.jpg" alt="">
+                              <img src="img/catalog-tabs1920.jpg" class="catalog-left__img-pic" alt="">
                            </picture>
                         </div>
                         <h3 class="catalog-left__title">
@@ -1062,7 +1062,7 @@
                               <p class="tabs-empty__descr">
                                  А&nbsp;в&nbsp;галерее вы&nbsp;всегда можете найти что-то интересное для себя
                               </p>
-                              <a href="#" class="tabs-empty__link" aria-label="Кнопка возврата в галерею">В галерею</a>
+                              <a href="#gallery" class="tabs-empty__link scroll-link" aria-label="Кнопка возврата в галерею">В галерею</a>
                            </div>
                         </article>
                      </li>
@@ -1080,7 +1080,7 @@
                               <p class="tabs-empty__descr">
                                  А&nbsp;в&nbsp;галерее вы&nbsp;всегда можете найти что-то интересное для себя
                               </p>
-                              <a href="#" class="tabs-empty__link" aria-label="Кнопка возврата в галерею">В галерею</a>
+                              <a href="#gallery" class="tabs-empty__link scroll-link" aria-label="Кнопка возврата в галерею">В галерею</a>
                            </div>
                         </article>
                      </li>
@@ -1098,7 +1098,7 @@
                               <p class="tabs-empty__descr">
                                  А&nbsp;в&nbsp;галерее вы&nbsp;всегда можете найти что-то интересное для себя
                               </p>
-                              <a href="#" class="tabs-empty__link" aria-label="Кнопка возврата в галерею">В галерею</a>
+                              <a href="#gallery" class="tabs-empty__link scroll-link" aria-label="Кнопка возврата в галерею">В галерею</a>
                            </div>
                         </article>
                      </li>
@@ -1116,7 +1116,7 @@
                               <p class="tabs-empty__descr">
                                  А&nbsp;в&nbsp;галерее вы&nbsp;всегда можете найти что-то интересное для себя
                               </p>
-                              <a href="#" class="tabs-empty__link" aria-label="Кнопка возврата в галерею">В галерею</a>
+                              <a href="#gallery" class="tabs-empty__link scroll-link" aria-label="Кнопка возврата в галерею">В галерею</a>
                            </div>
                         </article>
                      </li>
@@ -1134,7 +1134,7 @@
                               <p class="tabs-empty__descr">
                                  А&nbsp;в&nbsp;галерее вы&nbsp;всегда можете найти что-то интересное для себя
                               </p>
-                              <a href="#" class="tabs-empty__link" aria-label="Кнопка возврата в галерею">В галерею</a>
+                              <a href="#gallery" class="tabs-empty__link scroll-link" aria-label="Кнопка возврата в галерею">В галерею</a>
                            </div>
                         </article>
                      </li>
@@ -1152,7 +1152,7 @@
                               <p class="tabs-empty__descr">
                                  А&nbsp;в&nbsp;галерее вы&nbsp;всегда можете найти что-то интересное для себя
                               </p>
-                              <a href="#" class="tabs-empty__link" aria-label="Кнопка возврата в галерею">В галерею</a>
+                              <a href="#gallery" class="tabs-empty__link scroll-link" aria-label="Кнопка возврата в галерею">В галерею</a>
                            </div>
                         </article>
                      </li>
@@ -1163,23 +1163,24 @@
          </div>
       </section>
 
-      <section class="events section-offset" id="events">
-         <div class="container events-container">
+      <section class="section-offset" id="events">
+         <div class="container events-container events">
             <h2 class="events-title section-title">
                События
             </h2>
-            <div class="swiper-button-prev2 ev_swiper-btn__prev" aria-label="Кнопка переключения событий галереи"></div>
-            <div class="swiper-button-next2 ev_swiper-btn__next" aria-label="Кнопка переключения событий галереи"></div>
-            <div class="ev_swiper-container">
+            <div class="events-swiper">
+               <div class="swiper-button-prev2 events__btn-prev"></div>
+            <div class="swiper-button-next2 events__btn-next"></div>
+            <div class="events-swiper__container">
                <div class="swiper-wrapper">
                  <div class="swiper-slide swiper-slide--1 events-item">
                   <div class="events-item__top">
-                     <a href="#" class="ev-swiper__pics" tabindex="-1">
+                     <a href="#" class="events-pics" tabindex="-1">
                         <picture>
                            <source srcset="img/ev-swiper320__pic1.jpg" media="(max-width: 580px)">
                            <source srcset="img/ev-swiper768__pic1.jpg" media="(max-width: 960px)">
                            <source srcset="img/ev-swiper1024__pic1.jpg" media="(max-width: 1360px)">
-                           <img src="img/ev-swiper1920__pic1.jpg" alt="" class="ev-swiper__pic">
+                           <img src="img/ev-swiper1920__pic1.jpg" alt="" class="events-pic">
                         </picture>
                      </a>
                   </div>
@@ -1203,12 +1204,12 @@
                  </div>
                  <div class="swiper-slide swiper-slide--2 events-item">
                   <div class="events-item__top">
-                     <a href="#" class="ev-swiper__pics" tabindex="-1">
+                     <a href="#" class="events-pics" tabindex="-1">
                            <picture>
                               <source srcset="img/ev-swiper320__pic2.jpg" media="(max-width: 580px)">
                               <source srcset="img/ev-swiper768__pic2.jpg" media="(max-width: 960px)">
                               <source srcset="img/ev-swiper1024__pic2.jpg" media="(max-width: 1360px)">
-                              <img src="img/ev-swiper1920__pic2.jpg" alt="" class="ev-swiper__pic">
+                              <img src="img/ev-swiper1920__pic2.jpg" alt="" class="events-pic">
                            </picture>
                         </a>
                   </div>
@@ -1232,12 +1233,12 @@
                  </div>
                  <div class="swiper-slide swiper-slide--3 events-item">
                   <div class="events-item__top">
-                     <a href="#" class="ev-swiper__pics" tabindex="-1">
+                     <a href="#" class="events-pics" tabindex="-1">
                            <picture>
                               <source srcset="img/ev-swiper320__pic3.jpg" media="(max-width: 580px)">
                               <source srcset="img/ev-swiper768__pic3.jpg" media="(max-width: 960px)">
                               <source srcset="img/ev-swiper1024__pic3.jpg" media="(max-width: 1360px)">
-                              <img src="img/ev-swiper1920__pic3.jpg" alt="" class="ev-swiper__pic">
+                              <img src="img/ev-swiper1920__pic3.jpg" alt="" class="events-pic">
                            </picture>
                         </a>
                   </div>
@@ -1261,12 +1262,12 @@
                  </div>
                  <div class="swiper-slide swiper-slide--4 events-item">
                   <div class="events-item__top">
-                     <a href="#" class="ev-swiper__pics" tabindex="-1">
+                     <a href="#" class="events-pics" tabindex="-1">
                            <picture>
                               <source srcset="img/ev-swiper320__pic4.jpg" media="(max-width: 580px)">
                               <source srcset="img/ev-swiper768__pic4.jpg" media="(max-width: 960px)">
                               <source srcset="img/ev-swiper1024__pic4.jpg" media="(max-width: 1360px)">
-                              <img src="img/ev-swiper1920__pic4.jpg" alt="" class="ev-swiper__pic">
+                              <img src="img/ev-swiper1920__pic4.jpg" alt="" class="events-pic">
                            </picture>
                         </a>
                   </div>
@@ -1290,12 +1291,12 @@
                  </div>
                  <div class="swiper-slide swiper-slide--5 events-item">
                   <div class="events-item__top">
-                     <a href="#" class="ev-swiper__pics" tabindex="-1">
+                     <a href="#" class="events-pics" tabindex="-1">
                            <picture>
                               <source srcset="img/ev-swiper320__pic5.jpg" media="(max-width: 580px)">
                               <source srcset="img/ev-swiper768__pic5.jpg" media="(max-width: 960px)">
                               <source srcset="img/ev-swiper1024__pic5.jpg" media="(max-width: 1360px)">
-                              <img src="img/ev-swiper1920__pic5.jpg" alt="" class="ev-swiper__pic">
+                              <img src="img/ev-swiper1920__pic5.jpg" alt="" class="events-pic">
                            </picture>
                         </a>
                   </div>
@@ -1318,8 +1319,10 @@
                   </div>
                  </div>
                </div>
-               <div class="ev__swiper-pagination" aria-label="Кнопки переключения событий"></div>
+               <div class="events-pagination"></div>
              </div>
+            </div>
+            
              
          </div>
       </section>
@@ -1335,7 +1338,7 @@
                с&nbsp;не&nbsp;уникальными данными до&nbsp;степени совершенной неузнаваемости, из-за чего возрастает
                их&nbsp;статус бесполезности. Прежде всего, постоянное информационно-пропагандистское
                <span class="projects-wrapper">
-                  <span class="projects-tt" id="tt-1" tabindex="0" aria-label="Всплывающая подсказка">
+                  <span class="projects-tt" id="tt-1" tabindex="0">
                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                            d="M15.5 8C15.5 12.1421 12.1421 15.5 8 15.5C3.85786 15.5 0.5 12.1421 0.5 8C0.5 3.85786 3.85786 0.5 8 0.5C12.1421 0.5 15.5 3.85786 15.5 8Z"
@@ -1352,7 +1355,7 @@
                обеспечение нашей деятельности однозначно фиксирует необходимость экономической целесообразности принимаемых
                решений. И&nbsp;нет сомнений, что действия представителей оппозиции могут быть рассмотрены
                <span class="projects-wrapper">
-                  <span class="projects-tt" id="tt-2" tabindex="0" aria-label="Всплывающая подсказка">
+                  <span class="projects-tt" id="tt-2" tabindex="0">
                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                            d="M15.5 8C15.5 12.1421 12.1421 15.5 8 15.5C3.85786 15.5 0.5 12.1421 0.5 8C0.5 3.85786 3.85786 0.5 8 0.5C12.1421 0.5 15.5 3.85786 15.5 8Z"
@@ -1368,7 +1371,7 @@
                </span>
                исключительно в&nbsp;разрезе маркетинговых и&nbsp;финансовых
                <span class="projects-wrapper">
-                  <span class="projects-tt" id="tt-3" tabindex="0" aria-label="Всплывающая подсказка">
+                  <span class="projects-tt" id="tt-3" tabindex="0">
                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                            d="M15.5 8C15.5 12.1421 12.1421 15.5 8 15.5C3.85786 15.5 0.5 12.1421 0.5 8C0.5 3.85786 3.85786 0.5 8 0.5C12.1421 0.5 15.5 3.85786 15.5 8Z"
@@ -1391,53 +1394,53 @@
                Партнёры проектов:
             </h3>
             <div class="projects-swiper__wrapper">
-            <div class="swiper-button-prev3 pj_swiper-btn__prev" aria-label="Кнопка переключения партнёров галереи"></div>
-            <div class="swiper-button-next3 pj_swiper-btn__next" aria-label="Кнопка переключения партнёров галереи"></div>
+            <div class="swiper-button-prev3 projects__btn-prev"></div>
+            <div class="swiper-button-next3 projects__btn-next"></div>
             <div class="swiper-container pj_swiper-container">
                <div class="swiper-wrapper pj-wrapper__content">
                   <div class="swiper-slide swiper-slide--1 projects-item">
-                     <a href="#" class="pj-swiper__pics" aria-label="Партнёр номер 1">
-                        <img src="img/pj-swiper1920__pic1.png" class="pj-swiper__pic" alt="">
+                     <a href="#" class="projects-pics" aria-label="Партнёр номер 1">
+                        <img src="img/pj-swiper1920__pic1.png" class="projects-pic" alt="">
                      </a>
                   </div>
                   <div class="swiper-slide swiper-slide--2 projects-item">
-                     <a href="#" class="pj-swiper__pics" aria-label="Партнёр номер 2">
-                        <img src="img/pj-swiper1920__pic2.png" class="pj-swiper__pic" alt="">
+                     <a href="#" class="projects-pics" aria-label="Партнёр номер 2">
+                        <img src="img/pj-swiper1920__pic2.png" class="projects-pic" alt="">
                      </a>
                   </div>
                   <div class="swiper-slide swiper-slide--3 projects-item">
-                     <a href="#" class="pj-swiper__pics" aria-label="Партнёр номер 3">
-                        <img src="img/pj-swiper1920__pic3.png" class="pj-swiper__pic" alt="">
+                     <a href="#" class="projects-pics" aria-label="Партнёр номер 3">
+                        <img src="img/pj-swiper1920__pic3.png" class="projects-pic" alt="">
                      </a>
                   </div>
                   <div class="swiper-slide swiper-slide--4 projects-item">
-                     <a href="#" class="pj-swiper__pics" aria-label="Партнёр номер 4">
-                        <img src="img/pj-swiper1920__pic4.png" class="pj-swiper__pic" alt="">
+                     <a href="#" class="projects-pics" aria-label="Партнёр номер 4">
+                        <img src="img/pj-swiper1920__pic4.png" class="projects-pic" alt="">
                      </a>
                   </div>
                   <div class="swiper-slide swiper-slide--5 projects-item">
-                     <a href="#" class="pj-swiper__pics" aria-label="Партнёр номер 5">
-                        <img src="img/pj-swiper1920__pic5.png" class="pj-swiper__pic" alt="">
+                     <a href="#" class="projects-pics" aria-label="Партнёр номер 5">
+                        <img src="img/pj-swiper1920__pic5.png" class="projects-pic" alt="">
                      </a>
                   </div>
                   <div class="swiper-slide swiper-slide--6 projects-item">
-                     <a href="#" class="pj-swiper__pics" aria-label="Партнёр номер 6">
-                        <img src="img/pj-swiper1920__pic6.png" class="pj-swiper__pic" alt="">
+                     <a href="#" class="projects-pics" aria-label="Партнёр номер 6">
+                        <img src="img/pj-swiper1920__pic6.png" class="projects-pic" alt="">
                      </a>
                   </div>
                   <div class="swiper-slide swiper-slide--7 projects-item">
-                     <a href="#" class="pj-swiper__pics" aria-label="Партнёр номер 7">
-                        <img src="img/pj-swiper1920__pic7.png" class="pj-swiper__pic" alt="">
+                     <a href="#" class="projects-pics" aria-label="Партнёр номер 7">
+                        <img src="img/pj-swiper1920__pic7.png" class="projects-pic" alt="">
                      </a>
                   </div>
                   <div class="swiper-slide swiper-slide--8 projects-item">
-                     <a href="#" class="pj-swiper__pics" aria-label="Партнёр номер 8">
-                        <img src="img/pj-swiper1920__pic8.png" class="pj-swiper__pic" alt="">
+                     <a href="#" class="projects-pics" aria-label="Партнёр номер 8">
+                        <img src="img/pj-swiper1920__pic8.png" class="projects-pic" alt="">
                      </a>
                   </div>
                   <div class="swiper-slide swiper-slide--9 projects-item">
-                     <a href="#" class="pj-swiper__pics" aria-label="Партнёр номер 9">
-                        <img src="img/pj-swiper1920__pic9.png" class="pj-swiper__pic" alt="">
+                     <a href="#" class="projects-pics" aria-label="Партнёр номер 9">
+                        <img src="img/pj-swiper1920__pic9.png" class="projects-pic" alt="">
                      </a>
                   </div>
                </div>

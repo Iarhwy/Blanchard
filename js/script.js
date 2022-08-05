@@ -58,7 +58,7 @@ const choices = new Choices(element, {
  
 // GALLERY-SWIPER
 
-const gl_swiper = new Swiper('.gl_swiper-container', {
+const gl_swiper = new Swiper('.gallery-right__swiper-container', {
   slidesPerView: 3,
   slidesPerGroup: 3,
   loop: false,
@@ -125,7 +125,7 @@ document.querySelectorAll('.catalog-right__tab').forEach(function (tabsBtn) {
 
 // EVENTS-SWIPER
 
-const ev_swiper = new Swiper('.ev_swiper-container', {
+const ev_swiper = new Swiper('.events-swiper__container', {
   slidesPerView: 3,
   loop: false,
   navigation: {
@@ -138,7 +138,7 @@ const ev_swiper = new Swiper('.ev_swiper-container', {
   pagination: {
     type: 'bullets',
     clickable: true,
-    el: '.ev__swiper-pagination',
+    el: '.events-pagination',
   },
   breakpoints: {
     1600: {
@@ -180,6 +180,7 @@ const pj_swiper = new Swiper('.pj_swiper-container', {
       slidesPerView: 3,
       slidesPerGroup: 3,
       heigth: 150,
+      spaceBetween: 51,
     },
     1024: {
       slidesPerView: 2,
@@ -268,11 +269,12 @@ validation
     {
       rule: 'minLength',
       value: 11,
-      errorMessage: 'Недопустимый формат2',
+      errorMessage: 'Введите номер телефона',
     },
     {
       rule: 'maxLength',
-      value: 30,
+      value: 11,
+      errorMessage: 'Введите номер телефона',
     },
     {
       rule: 'required',
